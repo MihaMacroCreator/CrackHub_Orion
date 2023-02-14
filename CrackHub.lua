@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "CrackHub | Orion", HidePremium = false, SaveConfig = true, ConfigFolder = "cracked hub orion", IntroEnabled = true, IntroText = "v1.6", Icon = 7074749})
+local Window = OrionLib:MakeWindow({Name = "CrackHub | Orion", HidePremium = false, SaveConfig = true, ConfigFolder = "cracked hub orion", IntroEnabled = true, IntroText = "v1.7", Icon = 7074749})
 OrionLib:MakeNotification({
 	Name = "CrackHub",
 	Content = "Loading...",
