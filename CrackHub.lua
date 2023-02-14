@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "CrackHub | Orion", HidePremium = false, SaveConfig = true, ConfigFolder = "cracked hub orion", IntroEnabled = true, IntroText = "v1.7", Icon = 7074749})
+local Window = OrionLib:MakeWindow({Name = "CrackHub | Orion", HidePremium = false, SaveConfig = true, ConfigFolder = "cracked hub orion", IntroEnabled = true, IntroText = "v1.8", Icon = 7074749})
 OrionLib:MakeNotification({
 	Name = "CrackHub",
 	Content = "Loading...",
@@ -51,25 +51,7 @@ modshub:AddButton({
 		workspace:WaitForChild(plr.Name).Humanoid.JumpPower = "200"
   	end    
 })
-modshub:AddButton({
-	Name = "Sonic FE",
-	Callback = function()
-		loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
-  	end    
-})
-modshub:AddButton({
-	Name = "Kinda Sussy",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov5.lua'))()
-  	end    
-})
-modshub:AddButton({
-	Name = "press v plz",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov4.lua'))()
-  	end    
-})
-modshub:AddLabel("Some of these will not work bc of anticheats.")
+modshub:AddLabel("May not work bc of anticheats.")
 local handg = Window:MakeTab({
 	Name = "Hubs and Guis",
 	Icon = "rbxassetid://4483345998",
